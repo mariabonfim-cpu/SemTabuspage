@@ -1,0 +1,403 @@
+.semTabus {
+    width: 240px;
+    height: 150px;
+}
+
+.lugarBotao {
+    position: fixed;
+    bottom: 16px;
+    left: 16px;
+}
+
+.carousel-item {
+    height: 550px;
+    /* Ajuste para a altura desejada no desktop */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Preenche o espaço sem esticar ou achatar */
+    object-position: center;
+    /* Centraliza o foco da imagem (use 'top' se cortar cabeças) */
+}
+
+/* Ajuste responsivo para celulares e tablets */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 250px;
+        /* Altura menor em telas pequenas */
+    }
+}
+
+header {
+    background-image: url("./imagens/Banner/bannerFundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+}
+
+footer {
+    background-image: url("./imagens/Banner/bannerFundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+.fundoformulario {
+    background-image: url("./imagens/Fundos/FundoFormulario.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    color: #000000;
+}
+
+.fundoPrincipal {
+    background-image: url(./imagens/Fundos/fundoIndex.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.botao {
+    background-position: center;
+    /*Centraliza no centro */
+    display: inline-block;
+    /* Permite aplicar padding e dimensões corretamente */
+    background-color: #000000;
+    /* Cor de fundo */
+    color: #ffe656;
+    /* Cor do texto */
+    border: 2px solid #a07b00;
+    /* Largura, estilo e cor da borda */
+    border-radius: 6px;
+    /* Arredondamento dos cantos */
+    padding: 10px 20px;
+    /* Espaçamento interno (cima/baixo, esquerda/direita) */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    font-weight: bold;
+    transition: all 0.2s ease;
+    /* Suaviza a animação ao passar o mouse */
+}
+
+/* Efeito ao passar o mouse */
+a:hover {
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+.umbanda {
+    background-color: #e06666;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+.umbanda2 {
+    background-color: #e06666;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagemUmbanda {
+    height: 480px;
+    width: 320px;
+    margin: 2%;
+    border-radius: 7%;
+}
+
+.orixas {
+    height: 600px;
+    width: 800px;
+    margin: 2%;
+}
+
+.imgsata {
+    height: 350px;
+    width: 350px;
+    margin: 2%;
+}
+
+h1 {
+    text-align: center;
+    margin: 3%;
+    font-family: fantasy;
+    font-size: 370%;
+}
+
+h2,
+h3 {
+    text-align: center;
+    margin: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 270%;
+}
+
+h4 {
+    text-align: center;
+    margin: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+
+.canalumbanda {
+    font-size: 200%;
+}
+
+.budismo {
+    background-color: #ff9900;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+.budismo2 {
+    background-color: #ff9900;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lu {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+    color: antiquewhite;
+}
+
+.lu2 {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+}
+
+.sata {
+    background-color: #be2626;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+.sata2 {
+    background-color: #be2626;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.can {
+    background-color: #E5F0FE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+.can2 {
+    background-color: #E5F0FE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orixas2 {
+    height: 480px;
+    width: 380px;
+    margin: 2%;
+}
+
+.vermelho {
+    background-color: #ff2a2a;
+}
+
+.azulescuro {
+    background-color: rgb(9, 6, 51);
+    color: antiquewhite;
+}
+
+.turquesa {
+    background-color: rgb(110, 216, 243);
+}
+
+.marrom {
+    background-color: rgb(134, 56, 20);
+}
+
+.branco {
+    color: blue;
+}
+
+.preto {
+    background-color: #000000;
+    color: antiquewhite;
+}
+
+.dourado {
+    background-color: rgb(255, 234, 45);
+}
+
+.lilas {
+    background-color: rgb(213, 111, 233);
+}
+
+.verde {
+    background-color: rgb(102, 146, 58);
+}
+
+.azul {
+    background-color: rgb(203, 216, 245);
+}
+
+.texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+body {
+    cursor: url(./imagens/TodoResto/mousemenor.png), auto;
+}
+
+a:hover,
+button:hover {
+    cursor: url(./imagens/TodoResto/mousebrilhomenor.png), pointer;
+}
+
+.botoes {
+    padding: 10px 20px;
+    /* Estilo base para ambos */
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    /* Suaviza o efeito ao passar o mouse */
+}
+
+.texto2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+    background-color: rgb(253, 247, 247);
+    border-radius: 10px;
+}
+
+.borda {
+    background-color: rgb(253, 247, 247);
+    border-radius: 6px;
+}
+
+.jack {
+    height: 450px;
+    width: 500px;
+}
+
+.fundosos {
+    background-image: url(./imagens/Fundos/fundoSOS.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.fundocuriosidades {
+    background-image: url(./imagens/Fundos/fundoCuriosidade.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.naoincomoda {
+    height: 250px;
+    width: 250px;
+}
+
+.teiaUmbanda {
+    background-image: url("./imagens/Hallowen/teia.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #e06666;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+.teiaSata {
+    background-image: url("./imagens/Hallowen/teia.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #be2626;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+.teiaBudismo {
+    background-image: url("./imagens/Hallowen/teia.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ff9900;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 160%;
+}
+
+.curi {
+    height: 330px;
+    width: 290px;
+}
